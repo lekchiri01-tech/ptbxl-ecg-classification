@@ -1,0 +1,18 @@
+# Dataset (download it from PhysioNet, do not commit it)
+ptb-xl*/
+records100/
+records500/
+
+# Prepared arrays
+data_prepared/
+*.npy
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors
+.vscode/
+.ipynb_checkpoints/

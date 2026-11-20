@@ -43,14 +43,25 @@ I use the 100 Hz recordings and the official `strat_fold` column, which splits p
 - Classes are imbalanced: NORM is the largest class, HYP the smallest.
 - Many ECGs carry more than one label.
 
-Figures are in the [`figures/`](figures/) folder.
+### Figures
+
+**A normal ECG (lead II, first 3 seconds)**
+
+![Normal ECG](etape1_ecg_normal.png)
+
+**The same heartbeat seen from three leads (I, II, V1)**
+
+![Three leads](etape2_derivations.png)
+
+**Number of ECGs per diagnostic class**
+
+![Class distribution](etape4_repartition_classes.png)
 
 ## Files
 
 | File | Purpose |
 |------|---------|
 | `01_exploration.py` | Load the metadata, plot ECGs, inspect labels and class counts |
-| `prepare_data.py` | Load all signals and labels and save them as `.npy` arrays |
 
 ## Setup
 

@@ -47,16 +47,14 @@ I use the 100 Hz recordings and the official `strat_fold` column, which splits p
 
 **A normal ECG (lead II, first 3 seconds)**
 
-![Normal ECG](etape1_ecg_normal.png)
+![Normal ECG](figures/etape1_ecg_normal.png)
 
 **The same heartbeat seen from three leads (I, II, V1)**
 
-![Three leads](etape2_derivations.png)
-
+![Three leads](figures/etape2_derivations.png)
 **Number of ECGs per diagnostic class**
 
-![Class distribution](etape4_repartition_classes.png)
-
+![Class distribution](figures/etape4_repartition_classes.png)
 ## Files
 
 | File | Purpose |
